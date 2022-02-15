@@ -1,0 +1,4 @@
+# 2 libraries in python : they take time to be download
+pip install chatterbot
+pip install chatterbot_corpus
+# you can also reverse the instructions 
