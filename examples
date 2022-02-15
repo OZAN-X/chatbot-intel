@@ -1,0 +1,24 @@
+# in the privious librairies there a lot of classes such:
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
+# those are the most popular classes unsing in this project
+
+# some examples 
+################################
+ chatbot = ChatBot('Training Example')
+################################
+from chatbot import chatbot
+from chatterbot.trainers import ListTrainer
+
+trainer = ListTrainer(chatbot)
+
+trainer.train([
+    "Hi there!",
+    "Hello",
+])
+
+trainer.train([
+    "Greetings!",
+    "Hello",
+])
+#################################
